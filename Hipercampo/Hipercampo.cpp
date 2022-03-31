@@ -95,13 +95,9 @@ int main() {
 
     sort(t.begin(), t.end(), TrianguloMaisAlto);
 
-    cout<<"P = {";
-    for(int i=0; i<N; ++i) cout<<"("<<t[i].vertice.x<<','<<t[i].vertice.y<<"),";
-	cout<<"\b}"<<endl;
-
-    cout<<"L = {";
-    for(int i=0; i<N; ++i) cout<<"Polígono({A,B,P("<<i+1<<")}),";
-	cout<<"\b}"<<endl;
+    // cout<<"P = {";
+    // for(int i=0; i<N; ++i) cout<<"("<<t[i].vertice.x<<','<<t[i].vertice.y<<"),";
+	// cout<<"\b}"<<endl;
 
     cout << SCM(t) << endl;
 
